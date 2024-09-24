@@ -1,0 +1,28 @@
+/* Anti-aliasing */
+/* RM Neue looks better like this */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global styles */
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+
+::-moz-selection {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+
+/* https://github.com/HorusGoul/vite-plugin-stylex */
+@stylex stylesheet;

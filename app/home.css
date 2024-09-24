@@ -1,0 +1,38 @@
+li {
+  list-style: disc;
+  margin-left: 1.5em;
+  padding-left: 0.5em;
+  margin-top: 0.4em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #3898ff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a:hover {
+    text-decoration: underline;
+  }
+}

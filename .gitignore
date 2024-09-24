@@ -1,0 +1,97 @@
+node_modules
+.env
+.vscode
+build
+.cache/**
+**/.cache
+out
+*.log
+sun/build
+.DS_Store
+*.env
+.env.*
+**/.next
+app/.next
+sun/build
+.eslintcache
+target/
+**/tauri/icons/android/**
+**/tauri/icons/ios/**
+
+# ts
+tsconfig.tsbuildinfo
+tsbuild
+
+# app workbox next-pwa
+**/public/service-worker.js
+**/public/service-worker.js.map
+**/public/workbox-*.*
+**/public/fallback-*.*
+
+# pnpm
+.pnpm-debug.log
+
+# tauyri
+tauri/target/
+native/target/
+target
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+scripts/dist
+# !app/dist
+app/dist/**
+dist-ssr
+*.local
+
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.a
+app/vite.config.ts.*.mjs
+.cargo/config
+tauri/tauri.conf.patch.json
+.github/scripts/deps
+.eslintcache
+
+target 
+
+.deps 
+
+**/credentials/ios/dist-cert.p12
+**/credentials/ios/profile.mobileprovision
+**/credentials.json
+app/dist/why.txt
+vite.config.ts.timestamp*
+
+# next.js
+/.next/
+/out/
+**/.contentlayer
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.tsbuildinfo.*
+
+.cargo/config.toml
+.tmp
+
+admin/**
+admin/dist
+**/dist/**
+**/dist
