@@ -95,3 +95,4 @@ admin/**
 admin/dist
 **/dist/**
 **/dist
+.vercel

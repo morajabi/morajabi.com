@@ -42,7 +42,11 @@ export default function Index() {
           <ul>
             <li>
               Founded <a href="https://noor.to">Noor</a>, a virtual office and
-              chat app for remote teams
+              chat app for remote teams where I created our own{' '}
+              <a href="https://github.com/inline-chat/webrtc-client-rust">
+                Rust WebRTC client stack
+              </a>{' '}
+              instead of using libWebRTC.
             </li>
             <li>
               Made <a href="https://there.pm">There</a>, used by +17k people
