@@ -54,7 +54,9 @@ export default function Index() {
             </li>
             <li>
               Co-hosted{' '}
-              <a href="https://www.graphql-europe.org/">GraphQL Europe 2018</a>
+              <a href="https://web.archive.org/web/20180502173555/https://www.graphql-europe.org/">
+                GraphQL Europe 2018
+              </a>
             </li>
             <li>
               <a href="https://pioneer.app/founders/mohamad-rajabifard">
