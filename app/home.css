@@ -1,3 +1,7 @@
+h1 {
+  font-weight: 700;
+}
+
 li {
   list-style: disc;
   margin-left: 1.5em;
@@ -10,12 +14,12 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-color: #ffffff;
-}
-
 a:hover {
   text-decoration: underline;
+}
+
+body {
+  background-color: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,16 +27,12 @@ a:hover {
     background-color: #1f1f1f;
     color: #fff;
   }
-}
 
-@media (prefers-color-scheme: dark) {
   a {
     color: #3898ff;
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  a:hover {
-    text-decoration: underline;
+  ::selection {
+    background-color: rgba(255, 255, 255, 0.2);
   }
 }
