@@ -2,14 +2,15 @@ import type { MetaFunction } from '@remix-run/node';
 import * as stylex from '@stylexjs/stylex';
 import '../home.css';
 
-//..
 const styles = stylex.create({
   container: {
     fontFamily:
       '"Reddit Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
     maxWidth: '680px',
     margin: '0 auto',
-    marginTop: 100,
+    paddingTop: 100,
+    paddingBottom: 64,
+    paddingInline: 16,
   },
 });
 
@@ -28,41 +29,41 @@ export default function Index() {
     <main {...stylex.props(styles.container)}>
       <ul>
         <li>
-          <strong>
-            <h1>Mo Rajabi</h1>
-          </strong>
+          <h1>Mo Rajabi</h1>
         </li>
         <li>
           Co-founder and CEO at <a href="https://inline.chat">Inline</a>, the
-          chat company.
+          chat company (
+          <a href="https://github.com/inline-chat/inline">source</a>).
         </li>
 
         <li>
           Previously:
           <ul>
             <li>
-              Founded <a href="https://noor.to">Noor</a>, a virtual office and
-              chat app for remote teams where I created our own{' '}
+              Co-founded <a href="https://noor.to">Noor</a>, a virtual office
+              and chat app for remote teams where I created our own{' '}
               <a href="https://github.com/inline-chat/webrtc-client-rust">
                 Rust WebRTC client stack
               </a>{' '}
               instead of using libWebRTC.
             </li>
             <li>
-              Made <a href="https://there.pm">There</a>, used by +17k people
-              including from Shopify, Apple, Amazon, and Google
+              Made <a href="https://there.pm">There</a>, used by 17k+ people,
+              including at Apple, Google, Amazon and Shopify
             </li>
             <li>
               Co-hosted{' '}
-              <a href="https://web.archive.org/web/20180502173555/https://www.graphql-europe.org/">
+              <a href="https://web.archive.org/web/20181217173949/https://www.graphql-europe.org/team/">
                 GraphQL Europe 2018
               </a>
             </li>
             <li>
-              <a href="https://pioneer.app/founders/mohamad-rajabifard">
-                Pioneer
-              </a>{' '}
-              alumni
+              <a href="https://pioneer.app">Pioneer</a> alumni (
+              <a href="https://techcrunch.com/2020/02/19/ex-yc-partner-daniel-gross-rethinks-the-accelerator/">
+                TechCrunch
+              </a>
+              )
             </li>
           </ul>
         </li>
@@ -71,9 +72,10 @@ export default function Index() {
           <ul>
             <li>
               <a href="https://crabnebula.dev/blog/interview-with-mo/">
-                Interview with Crabnebula
+                Interview with CrabNebula
               </a>
-              , 2024
+              , 2024 (
+              <a href="https://www.youtube.com/watch?v=oO40BwhlGiY">video</a>)
             </li>
             <li>
               <a href="https://www.youtube.com/watch?v=rmrDT038cJM">
@@ -89,6 +91,10 @@ export default function Index() {
               <a href="https://medium.com/@morajabi/story-of-a-developer-from-iran-to-europe-open-source-story-196a6323be5d">
                 written version
               </a>
+              ,{' '}
+              <a href="https://github.com/morajabi/dev-story-slidedeck">
+                slides
+              </a>
               )
             </li>
           </ul>
@@ -98,17 +104,10 @@ export default function Index() {
           @morajabi on <a href="https://x.com/morajabi">X (Twitter)</a> and{' '}
           <a href="https://github.com/morajabi">GitHub</a>
         </li>
-        <li>mo@inline.chat</li>
+        <li>
+          <a href="mailto:mo@inline.chat">mo@inline.chat</a>
+        </li>
       </ul>
     </main>
   );
 }
-
-/* <a
-href="https://github.com/dena-sohrabi/There"
-target="_blank"
-rel="noopener noreferrer"
-{...stylex.props(styles.socialLink)}
->
-GitHub
-</a> */
